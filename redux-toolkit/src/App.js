@@ -13,7 +13,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <hr style={{ margin: 20 }} />
         <Tester />
+        <hr style={{ margin: 20 }} />
         <span>
           <span>Learn </span>
           <a

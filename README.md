@@ -62,11 +62,30 @@ Read data from the store with the useSelector hook
 Get the dispatch function with the useDispatch hook, and dispatch actions as needed
 ```
 
+### READ MORE
+
+#### Extra Reducer?
+
+Redux Thunk 관련, 비동기 작업의 경우...툴킷 기본 문서에서는 안나와 있으니 적절한 참고 아티클을 추가하기
+
+아마 데이터 연동을 위한 API 비동기 호출 작성 -> Promise 상태에 따른 적절한 추가 스테이트 작성 -> createAsyncThunk 작성(testerSlice.js의 changeHelloAsync 참고) -> extraReducer 정의 -> 컴포넌트 반영
+
+#### with Typescript
+
+[TypeScript Quick Start | Redux Toolkit](https://redux-toolkit.js.org/tutorials/typescript)
+
+#### reselect
+
+- useSelector관련 이슈 찾아보기
+- createSelector 적절한 예시 고려해보기
+
+#### 그 외?
+
 > ### 리마인드
 >
 > 1. 리덕스 스토어 생성
 > 2. 리액트 앱에 스토어 제공 (Provider as a prop)
 > 3. 리덕스 상태 슬라이스 만들기, 리덕스 스타일 가이드의 폴더 구조에 따르면 컴포넌트별 feature로 묶는것을 권장
 
-<!-- TODO: 리마인드로 리덕스 구성 과정 다시 정리해보자 -->
+<!-- TODO: 리덕스 구성 과정 다시 정리해보자 -->
 ---
