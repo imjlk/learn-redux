@@ -10,12 +10,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <hr style={{ margin: 20 }} />
+
+        <hr style={{ margin: 20, width: `100%` }} />
         <Tester />
-        <hr style={{ margin: 20 }} />
+        <hr style={{ margin: 20, width: `100%` }} />
         <span>
           <span>Learn </span>
           <a

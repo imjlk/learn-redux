@@ -68,7 +68,7 @@ Get the dispatch function with the useDispatch hook, and dispatch actions as nee
 
 Redux Thunk 관련, 비동기 작업의 경우...툴킷 기본 문서에서는 안나와 있으니 적절한 참고 아티클을 추가하기
 
-아마 데이터 연동을 위한 API 비동기 호출 작성 -> Promise 상태에 따른 적절한 추가 스테이트 작성 -> createAsyncThunk 작성(testerSlice.js의 changeHelloAsync 참고) -> extraReducer 정의 -> 컴포넌트 반영
+아마 데이터 연동을 위한 API 비동기 호출 작성 -> Promise 상태에 따른 적절한 추가 스테이트 작성 -> createAsyncThunk 작성(testerSlice.js의 changeHelloAsync 참고) -> extraReducer 정의 -> 컴포넌트 반영 순서
 
 #### with Typescript
 
@@ -89,3 +89,7 @@ Redux Thunk 관련, 비동기 작업의 경우...툴킷 기본 문서에서는 �
 
 <!-- TODO: 리덕스 구성 과정 다시 정리해보자 -->
 ---
+
+## RTK Query Quick Start [link](https://redux-toolkit.js.org/tutorials/rtk-query)
+
+[PokéAPI](https://pokeapi.co/) 활용 예시 구성
